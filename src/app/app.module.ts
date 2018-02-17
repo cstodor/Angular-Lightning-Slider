@@ -1,10 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { SliderComponent } from './slider/slider.component';
-
+import { SliderService } from './slider/slider.service';
 
 @NgModule({
   declarations: [
@@ -12,9 +11,10 @@ import { SliderComponent } from './slider/slider.component';
     SliderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [SliderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,14 @@
-<p>
-  slider works!
-</p>
+<!-- Images List -->
+<div *ngIf="imagesList" id="main-slider-container">
+  <div id="main-slides-list" #mainSlidesList>
+    <div *ngFor="let image of imagesList; let i = index" class="image-card" [ngStyle]="{'left' : i * (100 / imagesList.length) + '%', 'width' : 100 / (imagesList.length) + '%'}">
+      <img [src]="[image.urls.regular]" [alt]="image.user.username66" class="slide-img">
+    </div>
+  </div>
+</div>
+
+<!-- Main Slider Controls -->
+<div id="main-slider-controls" *ngIf="imagesList" #mainSlideControls>
+  <span *ngFor="let btn of mainSlideButtons; let i = index" class="nav-btn" (click)="slideToPage(i, $event)"></span>
+  {{ currentSlideAmount }} / {{ currentSlideIndex + 1 }} / {{ imagesList.length }}
+</div>
