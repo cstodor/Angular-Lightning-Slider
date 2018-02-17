@@ -1,0 +1,19 @@
+{
+  "name": "angular-lightning-slider-server",
+  "version": "1.0.0",
+  "description": "Server-side code for Angular Lightning Slider",
+  "main": "server.ts",
+  "scripts": {
+    "test": "ng test",
+    "build-server": "tsc -p ./tsconfig.server.json"
+  },
+  "author": "Csaba Todor",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "@types/body-parser": "^1.16.8",
+    "cors": "2.8.4",
+    "express": "^4.16.2",
+    "rxjs": "^5.5.6"
+  }
+}

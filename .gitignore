@@ -5,9 +5,14 @@
 /dist-server
 /tmp
 /out-tsc
+/public/dist
+/public/server.js
+/public/constants.js
 
 # dependencies
 /node_modules
+/public/node_modules
+/server/node_modules
 
 # IDEs and editors
 /.idea
