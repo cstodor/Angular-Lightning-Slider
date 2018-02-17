@@ -25,7 +25,7 @@ app.listen(PORT, () => {
 // Get Images (paginated)
 const getImages = (pageIndex: number): Promise<any> => {
     return new Promise<any>((resolve, reject) => {
-        https.get(UNSPLASH_API_ROOT + UNSPLASH_API_PHOTOS + '?page=' + pageIndex + '&' + UNSPLASH_API_APP_ID, (resp) => {
+        https.get(UNSPLASH_API_ROOT + UNSPLASH_API_PHOTOS + '?page=' + pageIndex + '&client_id=' + UNSPLASH_API_APP_ID, (resp) => {
             let data = '';
             // A chunk of data has been recieved.
             resp.on('data', (chunk) => {
