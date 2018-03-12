@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cstodor/Angular-Lightning-Slider.svg?branch=master)](https://travis-ci.org/cstodor/Angular-Lightning-Slider)
+
 # Angular Lightning Slider
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
