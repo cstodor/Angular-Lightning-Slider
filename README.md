@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/cstodor/Angular-Lightning-Slider.svg?branch=master)](https://travis-ci.org/cstodor/Angular-Lightning-Slider)
 [![Dependency Status](https://david-dm.org/cstodor/Angular-Lightning-Slider/status.svg)](https://david-dm.org/cstodor/Angular-Lightning-Slider)
 [![devDependency Status](https://david-dm.org/cstodor/Angular-Lightning-Slider/dev-status.svg)](https://david-dm.org/cstodor/Angular-Lightning-Slider)
+[![GitHub version](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider.svg)](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider)
 
 # Angular Lightning Slider
 
