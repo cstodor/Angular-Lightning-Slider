@@ -5,6 +5,8 @@
 
 # Angular Lightning Slider
 
+[![Join the chat at https://gitter.im/Angular-Lightning-Slider/Lobby](https://badges.gitter.im/Angular-Lightning-Slider/Lobby.svg)](https://gitter.im/Angular-Lightning-Slider/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
 ## Development server
