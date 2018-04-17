@@ -5,7 +5,20 @@
 [![GitHub version](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider.svg)](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider)
 [![Join the chat at https://gitter.im/Angular-Lightning-Slider/Lobby](https://badges.gitter.im/Angular-Lightning-Slider/Lobby.svg)](https://gitter.im/Angular-Lightning-Slider/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+# Prerequisite
+1. NodeJS
+2. Angular CLI
+
+# QUICK START
+1. Download source code
+2. Open terminal in the folder where you've downloaded the app
+3. Run `npm run install-client-and-server` from your terminal. This will install the dependencies for Client/Server
+4. Build the App for both Client and Server, by running `npm run build-client-and-server`from your terminal
+5. Run the App by running `node public/server`
+6. Open your browser, and navigate to: `localhost:3000` Enjoy!
+
+
+# Developement
 
 ## Development server
 
@@ -17,7 +30,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `public/dist/` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
