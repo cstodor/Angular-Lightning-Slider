@@ -6,8 +6,9 @@
 [![Join the chat at https://gitter.im/Angular-Lightning-Slider/Lobby](https://badges.gitter.im/Angular-Lightning-Slider/Lobby.svg)](https://gitter.im/Angular-Lightning-Slider/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Prerequisite
-1. NodeJS
-2. Angular CLI
+1. NodeJS (>=8.9.4 or greater) https://nodejs.org/en/
+2. Angular CLI  (>=1.6.7 or greater) https://cli.angular.io/
+3. TypeScript (>= 2.4.2) https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 # QUICK START
 1. Download source code
@@ -16,6 +17,11 @@
 4. Build the App for both Client and Server, by running `npm run build-client-and-server`from your terminal
 5. Run the App with `node public/server`
 6. Open your browser, and navigate to: `localhost:3000` Enjoy!
+
+## Image Sources
+Images are loaded from https://unsplash.com/ using the Unsplash API (https://unsplash.com/developers)
+
+You can change the API endpoint from the `constants.ts`, located at `server/constants.ts`. Make sure that you re-build the server after adding your API credentials with: `tsc -p ./tsconfig.server.json`
 
 
 # Developement
