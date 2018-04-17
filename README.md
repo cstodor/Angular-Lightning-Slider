@@ -14,7 +14,7 @@
 2. Open terminal in the folder where you've downloaded the app
 3. Run `npm run install-client-and-server` from your terminal. This will install the dependencies for Client/Server
 4. Build the App for both Client and Server, by running `npm run build-client-and-server`from your terminal
-5. Run the App by running `node public/server`
+5. Run the App with `node public/server`
 6. Open your browser, and navigate to: `localhost:3000` Enjoy!
 
 
