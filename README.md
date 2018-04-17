@@ -21,7 +21,7 @@
 ## Image Sources
 Images are loaded from https://unsplash.com/ using the Unsplash API (https://unsplash.com/developers)
 
-You can change the API endpoint from the `constants.ts`, located at `server/constants.ts`. Make sure that you re-build the server after adding your API credentials with: `tsc -p ./tsconfig.server.json`
+You can change the API endpoint from the `constants.ts`, located at `server/constants.ts`. Make sure that you re-build the server after adding your API credentials by running `tsc -p ./tsconfig.server.json` from your terminal.
 
 
 # Developement
