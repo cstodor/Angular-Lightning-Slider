@@ -4,6 +4,8 @@
 [![devDependency Status](https://david-dm.org/cstodor/Angular-Lightning-Slider/dev-status.svg)](https://david-dm.org/cstodor/Angular-Lightning-Slider)
 [![GitHub version](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider.svg)](https://badge.fury.io/gh/cstodor%2FAngular-Lightning-Slider)
 [![Join the chat at https://gitter.im/Angular-Lightning-Slider/Lobby](https://badges.gitter.im/Angular-Lightning-Slider/Lobby.svg)](https://gitter.im/Angular-Lightning-Slider/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Known Vulnerabilities](https://snyk.io/test/github/cstodor/angular-lightning-slider/badge.svg?targetFile=package.json)](https://snyk.io/test/github/cstodor/angular-lightning-slider?targetFile=package.json)
+
 
 # Prerequisite
 1. NodeJS (>=8.9.4 or greater) https://nodejs.org/en/
